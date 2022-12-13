@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Battle
+comment1.params=
+comment1.target=void\ getBattleType()
+comment2.params=
+comment2.target=void\ allOutWar()
+comment3.params=
+comment3.target=void\ infantryBattle()
+comment4.params=
+comment4.target=void\ planeBattle()
+comment5.params=
+comment5.target=void\ tankBattle()
+numComments=6
