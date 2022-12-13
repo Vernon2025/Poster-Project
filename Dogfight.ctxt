@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Dogfight
+comment1.params=planes
+comment1.target=Dogfight(int)
+comment2.params=
+comment2.target=int\ getCasualties()
+comment3.params=
+comment3.target=void\ fight()
+numComments=4

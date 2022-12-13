@@ -2,8 +2,6 @@ public class Battle {
   private boolean hasInfantry;
   private boolean hasPlane;
   private boolean hasTank;
-  private boolean attack;
-  private boolean defend;
   private String hasArmy;
   public void getBattleType() {
       hasArmy = "We all fight!";
