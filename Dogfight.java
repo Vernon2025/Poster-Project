@@ -1,4 +1,4 @@
-public class Dogfight {
+public class Dogfight extends Battle {
     private boolean isfighting;
     private int planeCasualties;
     private int planes;
@@ -7,9 +7,9 @@ public class Dogfight {
         this.fight();
     }
     public int getCasualties() {
-        if (planeCasualties < 3) {
+        if (planeCasualties <= planes/2) {
             System.out.println("Victory");
-        } else if (planeCasualties > 3) {
+        } else if (planeCasualties > planes/2) {
             System.out.println("Defeat");
         }
         return planeCasualties;

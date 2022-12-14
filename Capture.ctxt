@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Capture
+comment1.params=
+comment1.target=void\ soldiersFight()
+comment2.params=objectives
+comment2.target=int\ capturedPoints(int)
+numComments=3
