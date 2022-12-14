@@ -8,9 +8,9 @@ public class Dogfight {
     }
     public int getCasualties() {
         if (planeCasualties < 3) {
-            System.out.println("Defeat");
-        } else if (planeCasualties > 3) {
             System.out.println("Victory");
+        } else if (planeCasualties > 3) {
+            System.out.println("Defeat");
         }
         return planeCasualties;
     }
