@@ -1,24 +1,15 @@
 public class Capture extends Battle {
     private boolean isCaptured;
     private boolean hasSoldiers;
+    private int soldiers;
     private int objectives;
     private int points;
-    public int soldiersFight() {
+    public void soldiersFight(int soldiers) {
          
     }
+    public int infantryCasualties
     
-    
-    
-    
-    
-    
-    
-    
-    public int reset() {
-        
+    public void reset() {
+        soldiers = 0;
     }
-    /**public int capturePoints(int objectives) {
-        
-        return points;
-    }**/
 }
