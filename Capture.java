@@ -20,18 +20,24 @@ public class Capture extends Battle {
         }
     }
     public void getSoldierCasualties() {
-        int remain = soldiers/infantryCasualties;
-        System.out.println("|You lost " + infantryCasualties + " of our soldiers and " + remain + " remain|");
+        System.out.println("|You lost " + infantryCasualties + " of our soldiers in battle|");
         if (isVictory && canSeize == true) {
             System.out.println("|You may proceed to seize the objective|");
-        }
+        } else if (isVictory && canSeize == false) {
+            System.out.println("|Cannot proceed the assualt|");
+            System.out.println("|Defeat|");
+        } 
     }
     public void canSeizeObjective() {
+        String importantInfo[] = {
+           
+        };
+        for (int i = 0; i < importantInfo.length;i++) {
+            Thread.sleep(4000);
+            System.out.println(importantInfo[i]);
+        }
         if (isVictory && canSeize == true) {
             System.out.println("Our soldiers captured the objective!");
         }
-    }
-    public void reset() {
-        soldiers = 0;
     }
 }
