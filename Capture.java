@@ -7,7 +7,7 @@ public class Capture extends Battle {
     public void soldiersFight(int soldiers) {
          
     }
-    public int infantryCasualties
+    public int infantryCasualties;
     
     public void reset() {
         soldiers = 0;
