@@ -4,7 +4,7 @@ public class TestClass {
         a.planeBattle();
         a.getBattleType();
         
-        Dogfight b = new Dogfight(10);
+        Dogfight b = new Dogfight(200);
         b.fightEnemy();
         b.myPilotCasualties();
     }

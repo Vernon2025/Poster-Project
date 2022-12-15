@@ -21,7 +21,6 @@ public class Dogfight extends Battle {
         System.out.println("|You lost " + planeCasualties + " planes in battle|");
     }
     public void fightEnemy() {
-        
         if (isFighting == true) {
             System.out.println("|Battle in progress|");
             this.planeCasualties = (int)(Math.random() * this.planes) + 1;
