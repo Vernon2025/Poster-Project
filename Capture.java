@@ -29,15 +29,19 @@ public class Capture extends Battle {
         } 
     }
     public void canSeizeObjective() {
-        String importantInfo[] = {
-           
-        };
-        for (int i = 0; i < importantInfo.length;i++) {
-            Thread.sleep(4000);
-            System.out.println(importantInfo[i]);
+        String seizeProgress[] = {"25%", "50%", "75%", "100%"};
+        System.out.println("|Seize in progress|");
+        for (int i = 0; i < seizeProgress.length;i++) {
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException ie) {
+                ie.printStackTrace();
+            }
+            System.out.println(seizeProgress[i]);
         }
         if (isVictory && canSeize == true) {
-            System.out.println("Our soldiers captured the objective!");
+            System.out.println("|Our soldiers captured the objective!|");
+            System.out.println("|Victory|");
         }
     }
 }
