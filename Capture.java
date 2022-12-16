@@ -3,13 +3,12 @@ public class Capture extends Battle {
     private int soldiers;
     private boolean isFighting;
     private boolean canSeize;
-    private boolean isVictory;
     public void soldiersFightBattlefield(int soldiers) {
         isFighting = true;
         this.soldiers = soldiers;
         if (isFighting = true) {
             System.out.println("|Battle begin|");
-            System.out.println("|You Have " + soldiers  + " soldiers on the ground|");
+            System.out.println("|You Have " + soldiers  + " of our soldiers on the ground|");
             System.out.println("|Battle in progress|");
             this.infantryCasualties = (int)(Math.random() * this.soldiers) + 1;
         }
@@ -34,9 +33,9 @@ public class Capture extends Battle {
             System.out.println("|Seize in progress|");
             for (int i = 0; i < seizeProgress.length;i++) {
                 try {
-                Thread.sleep(3000);
+                    Thread.sleep(3000);
                 } catch (InterruptedException ie) {
-                ie.printStackTrace();
+                    ie.printStackTrace();
                 }
                 System.out.println(seizeProgress[i]);
             }

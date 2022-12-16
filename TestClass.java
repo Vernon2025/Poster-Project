@@ -8,6 +8,12 @@ public class TestClass {
         b.fightEnemy();
         b.myPilotCasualties();
         
+        Battle a2 = new Battle();
+        a2.tankBattle();
+        a2.getBattleType();
+        
+        Destroy d = new Destroy();
+        
         Battle a1 = new Battle();
         a1.infantryBattle();
         a1.getBattleType();
