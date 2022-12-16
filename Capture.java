@@ -9,6 +9,7 @@ public class Capture extends Battle {
         this.soldiers = soldiers;
         if (isFighting = true) {
             System.out.println("|Battle begin|");
+            System.out.println("|You Have " + soldiers  + " soldiers on the ground|");
             System.out.println("|Battle in progress|");
             this.infantryCasualties = (int)(Math.random() * this.soldiers) + 1;
         }
